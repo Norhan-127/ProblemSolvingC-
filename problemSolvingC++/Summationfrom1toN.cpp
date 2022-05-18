@@ -2,9 +2,10 @@
 using namespace std;
  
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    string S;
-    cin>>S;
-    cout << "Hello, "<<S<<"\n";
+    
+    long long n;
+    cin>>n;
+    cout<<n*(n+1)/2<<"\n";
+    
     return 0;
 }
